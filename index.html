@@ -47,7 +47,7 @@ margin-left:5px;
 label.form-control{height:auto;font-weight:normal}
 div.form-group{
 padding:0;
-padding-bottom:1px;
+padding-bottom:1px;                                       
 background:#eee;
 border-radius:2px;
 width:60%
@@ -114,6 +114,7 @@ function validate() {
       var ctx = document.getElementById("myChart").getContext("2d");
       /*********************/
       new Chart(ctx).Bar(data,options);
+	  correct=0;incorrect=0;
 	}
 	else
 	{
